@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FCTRL3.cs" />
+    <Compile Include="PA05_POT.cs" />
     <Compile Include="PRIME_T.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

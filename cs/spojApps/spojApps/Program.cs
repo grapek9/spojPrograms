@@ -11,10 +11,12 @@ namespace spojApps
         static void Main(string[] args)
         {
             Console.WriteLine("Sumthing");
-           // PRIME_T prime = new PRIME_T();
-           // prime.run();
-            FCTRL3 factoria = new FCTRL3();
-            factoria.run();
+           // PRIME_T run_PRIME_T = new PRIME_T();
+            // run_PRIME_T.run();
+           // FCTRL3 run_FCTRL3 = new FCTRL3();
+            // run_FCTRL3.run();
+            PA05_POT run_PA05_POT = new PA05_POT();
+            run_PA05_POT.run();
             Console.ReadKey();
         }
     }

@@ -15,8 +15,10 @@ namespace spojApps
             // run_PRIME_T.run();
            // FCTRL3 run_FCTRL3 = new FCTRL3();
             // run_FCTRL3.run();
-            PA05_POT run_PA05_POT = new PA05_POT();
-            run_PA05_POT.run();
+            //PA05_POT run_PA05_POT = new PA05_POT();
+            //run_PA05_POT.run();
+            FLAMASTE run_FLAMASTE = new FLAMASTE();
+            run_FLAMASTE.run();
             Console.ReadKey();
         }
     }

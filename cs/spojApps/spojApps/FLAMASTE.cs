@@ -40,9 +40,10 @@ namespace spojApps
             int length = text.Length, counter=1;
             String template, shortenString="";
             template = arrayOfCharacters[0].ToString();
-            foreach(char iterator in arrayOfCharacters.Skip(1))
-            {
-                if (template.Equals(iterator.ToString()))
+            for(int i =0;i<text.Length;i++){
+
+
+                if (template.Equals(arrayOfCharacters[i].ToString()))
                 {
                     counter += 1;
                 }
@@ -58,7 +59,7 @@ namespace spojApps
                     }
                     else { shortenString += template; }
 
-                    template = iterator.ToString();
+                    template = arrayOfCharacters[i].ToString();
                     counter = 1;
                 }
              

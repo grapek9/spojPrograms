@@ -1,1 +1,0 @@
-f# spoj programs from pl.spoj.com

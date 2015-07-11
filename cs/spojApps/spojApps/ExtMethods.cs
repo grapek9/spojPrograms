@@ -10,5 +10,7 @@ namespace ExtensionMethods
     {
         public static int pow(this int arg) { return arg * arg; }
         public static int pow(this int arg, int power) { return (int)Math.Pow(arg, power); }
+        public static double pow(this double arg) { return arg * arg; }
+        public static double pow(this double arg, int power) { return Math.Pow(arg, power); }
     }
 }

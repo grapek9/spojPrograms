@@ -19,8 +19,10 @@ namespace spojApps
           //run_PA05_POT.run();
           // FLAMASTE run_FLAMASTE = new FLAMASTE();
           //  run_FLAMASTE.run();
-            int i = 5;
-            Console.WriteLine(i.pow()+" "+i.pow(3));
+            int integer = 5;
+            double doub = 5;
+
+            Console.WriteLine(integer.pow()+" "+integer.pow(3)+" "+doub.pow()+" "+doub.pow(3)+" "+Math.Pow(5,2));
             Console.ReadKey();
         }
     }

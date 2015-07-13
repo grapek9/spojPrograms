@@ -22,7 +22,20 @@ namespace spojApps
             int integer = 5;
             double doub = 5;
 
-            Console.WriteLine(integer.pow()+" "+integer.pow(3)+" "+doub.pow()+" "+doub.pow(3)+" "+Math.Pow(5,2));
+            Console.WriteLine(integer.pow()+" "+integer.pow(3)+" "+doub.pow()+" "+doub.pow(3));
+            string s = "ala ma kota lolz elo elo 3 2 0.5,8;23";
+            string[] splitedtext = s.split();
+            foreach (string iterator in splitedtext) { Console.WriteLine(iterator); }
+            Console.WriteLine(s.wordcounter());
+            int[] array = new int[3];
+            array[0]=2;
+            array[1]=3;
+            array[2]=4;
+            foreach (int i in array) { Console.Write(i + ","); }
+            array = array.multiply();
+            foreach (int i in array) { Console.Write(i + ","); }
+
+            array.ForEach(Console.WriteLine);
             Console.ReadKey();
         }
     }

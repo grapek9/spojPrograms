@@ -19,7 +19,7 @@ namespace spojApps
           //run_PA05_POT.run();
           // FLAMASTE run_FLAMASTE = new FLAMASTE();
           //  run_FLAMASTE.run();
-            int integer = 5;
+          /*  int integer = 5;
             double doub = 5;
 
             Console.WriteLine(integer.pow()+" "+integer.pow(3)+" "+doub.pow()+" "+doub.pow(3));
@@ -35,7 +35,9 @@ namespace spojApps
             array = array.multiply();
             foreach (int i in array) { Console.Write(i + ","); }
 
-            array.ForEach(Console.WriteLine);
+            array.ForEach(Console.WriteLine);*/
+            RNO_DOD run_RNO_DOD = new RNO_DOD();
+            run_RNO_DOD.run();
             Console.ReadKey();
         }
     }

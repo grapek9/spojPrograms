@@ -36,8 +36,10 @@ namespace spojApps
             foreach (int i in array) { Console.Write(i + ","); }
 
             array.ForEach(Console.WriteLine);*/
-            RNO_DOD run_RNO_DOD = new RNO_DOD();
-            run_RNO_DOD.run();
+           // RNO_DOD run_RNO_DOD = new RNO_DOD();
+           // run_RNO_DOD.run();
+            BFN1 run_BFN1 = new BFN1();
+            run_BFN1.run();
             Console.ReadKey();
         }
     }

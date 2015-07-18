@@ -74,6 +74,27 @@ namespace ExtensionMethods
             }
                 return array;
         }
+        public static int[] SelectionSort(this int[] array)
+        {
+            int max=0;
+            int temp=0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                max = array[i];
+                for (int j = 0; j < array.Length-i; j++)
+                {
+                    if (max < array[j])
+                    {
+                        max = array[j];
+                    }
+                }
+                temp = array[array.Length - i  -1];
+                array[array.Length - i- 1] = max;
+                array[i] = temp;
+
+            }
+                return array;
+        }
 
         /*public static T[] BubbleSort<T>(this T[] array)
         {

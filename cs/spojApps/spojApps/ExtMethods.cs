@@ -76,22 +76,21 @@ namespace ExtensionMethods
         }
         public static int[] SelectionSort(this int[] array)
         {
-            int max=0;
+            int pos_min=0;
             int temp=0;
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length-1; i++)
             {
-                max = array[i];
-                for (int j = 0; j < array.Length-i; j++)
+                pos_min = i;
+                for (int j = i + 1; j< array.Length; j++)
                 {
-                    if (max < array[j])
+                    if (array[j] < array[pos_min])
                     {
-                        max = array[j];
+                        pos_min = j;
                     }
                 }
-                temp = array[array.Length - i  -1];
-                array[array.Length - i- 1] = max;
-                array[i] = temp;
-
+                temp = array[i];
+                array[i] = array[pos_min];
+                array[pos_min] = temp;
             }
                 return array;
         }

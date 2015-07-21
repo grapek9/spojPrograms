@@ -40,11 +40,8 @@ namespace spojApps
            // run_RNO_DOD.run();
            // BFN1 run_BFN1 = new BFN1();
            // run_BFN1.run();
-            int[] array = { 2, 5, 1, 53, 6, 71, 2 };
-            foreach (int i in array) { Console.Write(i + ","); }
-            Console.WriteLine("");
-            array = array.SelectionSort();
-            foreach (int i in array) { Console.Write(i + ","); }
+            
+            learning.run();
             
             Console.ReadKey();
         }

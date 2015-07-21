@@ -45,6 +45,7 @@
     <Compile Include="ExtMethods.cs" />
     <Compile Include="FCTRL3.cs" />
     <Compile Include="FLAMASTE.cs" />
+    <Compile Include="learning.cs" />
     <Compile Include="PA05_POT.cs" />
     <Compile Include="PRIME_T.cs" />
     <Compile Include="Program.cs" />

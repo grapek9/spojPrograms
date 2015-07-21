@@ -18,7 +18,7 @@ namespace spojApps
           //PA05_POT run_PA05_POT = new PA05_POT();
           //run_PA05_POT.run();
           // FLAMASTE run_FLAMASTE = new FLAMASTE();
-          //  run_FLAMASTE.run();
+           // run_FLAMASTE.run();
           /*  int integer = 5;
             double doub = 5;
 
@@ -41,7 +41,7 @@ namespace spojApps
            // BFN1 run_BFN1 = new BFN1();
            // run_BFN1.run();
             
-            learning.run();
+           learning.run();
             
             Console.ReadKey();
         }

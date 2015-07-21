@@ -36,33 +36,45 @@ namespace spojApps
         public void shortenTextDisplay(String text)
         {
             text = text.ToUpper();
-            char[] arrayOfCharacters = text.ToCharArray();
+            
             int length = text.Length, counter=1;
             String template, shortenString="";
-            template = arrayOfCharacters[0].ToString();
-            for(int i =0;i<text.Length;i++){
-
-
-                if (template.Equals(arrayOfCharacters[i].ToString()))
-                {
-                    counter += 1;
+            template = text[0].ToString();
+            for(int i =1;i<text.Length;i++){
+                if(template.Equals(text[i].ToString())){
+                    counter++;
                 }
                 else
                 {
-                    if (counter > 2)
+                    if (counter < 2)
+                    {
+                        shortenString += template;
+                    }else if(counter == 2){
+                        shortenString += template + template;
+                    }
+                    else
                     {
                         shortenString += template + counter.ToString();
+                    }
+                    template = text[i].ToString();
+                    counter = 1;
+                }
+                if (i == text.Length - 1)
+                {
+                    if (counter < 2)
+                    {
+                        shortenString += template;
                     }
                     else if (counter == 2)
                     {
                         shortenString += template + template;
                     }
-                    else { shortenString += template; }
-
-                    template = arrayOfCharacters[i].ToString();
-                    counter = 1;
+                    else
+                    {
+                        shortenString += template + counter.ToString();
+                    }
                 }
-             
+
             }
             Console.WriteLine(shortenString);
         }

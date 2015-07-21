@@ -23,7 +23,7 @@ namespace spojApps
             int i2 = NullableInt.GetValueOrDefault();
             Console.WriteLine("i1 = "+i1 +" \n i2 = " +i2);
              */
-            int i1 = 5;
+           /* int i1 = 5;
             int i2 = i1;
             i2++;
 
@@ -31,7 +31,10 @@ namespace spojApps
             int i4 = i3;
             i4++;
             Console.WriteLine("i1 ="+i1+ "\ni2 ="+i2+" \ni3 ="+i3+"\ni4 ="+i4);
-
+            */
+           // int a = 5;
+           // int b = 6;
+          //  Console.WriteLine((a>b)?"hueheu":"hahahah");
         }
     }
 }

@@ -40,8 +40,9 @@ namespace spojApps
            // run_RNO_DOD.run();
            // BFN1 run_BFN1 = new BFN1();
            // run_BFN1.run();
-            
-           learning.run();
+            NWD run_NWD = new NWD();
+            run_NWD.run();
+          // learning.run();
             
             Console.ReadKey();
         }

@@ -48,6 +48,7 @@
     <Compile Include="learning.cs" />
     <Compile Include="NWD.cs" />
     <Compile Include="PA05_POT.cs" />
+    <Compile Include="PP0502B.cs" />
     <Compile Include="PRIME_T.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
